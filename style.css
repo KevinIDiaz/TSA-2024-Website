@@ -21,10 +21,7 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    width: 100;
-    cursor: pointer;
-}
+
 .logo2{
     width: 200;
     cursor: pointer;
@@ -135,9 +132,10 @@ body {
 }
 
 h1 {
-    background-color: #0074d9;
+    background-color: #00d950;
     color: #fff;
     padding: 3px;
+    font-family: Helvetica, sans-serif;
 }
 h5 {
     background-color: #ba0808;
