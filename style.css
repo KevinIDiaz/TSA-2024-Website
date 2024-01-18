@@ -7,7 +7,7 @@
 .banner {
   width: 100%;
   height: 100vh;
-  background-color: #0074d9;
+  background-color: #000000;
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(appolinary-kalashnikova-WYGhTLym344-unsplash.jpg);
   background-size: cover;
@@ -52,7 +52,7 @@
   width: 100%;
 }
 
-.content {
+.cover {
   width: 100%;
   position: absolute;
   top: 50%;
@@ -61,7 +61,7 @@
   color: #fff;
 }
 
-.content h1 {
+.cover h1 {
   font-size: 90px;
   margin-top: 80px;
   margin-bottom: 20px;
@@ -70,7 +70,7 @@
   -webkit-text-stroke-color: #00d950;
 }
 
-.content p {
+.cover p {
   margin: 20px auto;
   font-weight: 100;
   line-height: 25px;
@@ -114,32 +114,28 @@ button:hover {
 body {
   font-family: Arial, sans-serif;
   text-align: center;
-  background-color: #0b89ff;
+  background-color: #000;
   color: #333;
 }
 
 h1 {
   color: #fff;
   padding: 3px;
-  font-family: Helvetica, sans-serif;
-}
-h5 {
-  background-color: #ba0808;
-  color: #fff;
-  padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 50px;
 }
+
 .section {
-  background-color: #80b5ff; /* Change this to your desired background color */
-  border: 1px solid #ddd;
-  border-radius: 10px;
+  background-color: #fff;
+  border: 5px solid #00d950;
+  border-radius: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .section h2 {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 
 .footer ul {
@@ -158,7 +154,61 @@ h5 {
   font-size: x-small;
 }
 
+.footer li {
+  margin-top: 8px;
+  color: #fff;
+}
 a:link {
   color: #fff;
   text-decoration: none;
+}
+
+.thumbnail {
+  width: 300px;
+  height: 300px;
+  margin: 40px;
+  border-radius: 15px;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+}
+.content p {
+  font-size: larger;
+}
+
+.content button {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #000000;
+  background: transparent;
+  color: #000000;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+.content span {
+  background: #00d950;
+  height: 100%;
+  width: 0;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.content button:hover span {
+  width: 100%;
+}
+
+.content button:hover {
+  background-color: #00d950;
 }
