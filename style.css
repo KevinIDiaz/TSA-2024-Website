@@ -230,5 +230,6 @@ a:link {
 @media screen and (max-width: 700px) {
   .content .thumbnail {
     width: 80%;
+    height: width;
   }
 }
