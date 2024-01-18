@@ -230,6 +230,5 @@ a:link {
 @media screen and (max-width: 600px) {
   .content .thumbnail {
     width: 80%;
-    padding-bottom: 100%;
   }
 }
