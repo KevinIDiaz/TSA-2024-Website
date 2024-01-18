@@ -136,6 +136,7 @@ h1 {
 
 .section h2 {
   margin: 5px 0;
+  font-size: 30px;
 }
 
 .footer ul {
@@ -211,4 +212,18 @@ a:link {
 
 .content button:hover {
   background-color: #00d950;
+}
+
+.nobanner {
+  background-color: #00d950;
+}
+
+.nobanner .section {
+  border-color: #000;
+}
+
+@media screen and (max-width: 700px) {
+  .content {
+    display: block;
+  }
 }
