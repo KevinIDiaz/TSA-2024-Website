@@ -8,24 +8,22 @@
     width: 100%;
     height: 100vh;
     background-color: #0074d9;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(appolinary-kalashnikova-WYGhTLym344-unsplash.jpg);
     background-size: cover;
     background-position: center;
     
 }
 .navbar{
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding: 35px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #000000;
 }
 
-.logo2{
-    width: 200;
-    cursor: pointer;
-}
+
 .navbar ul li{
     list-style: none;
     display: inline-block;
@@ -35,21 +33,18 @@
 
 .navbar ul li a {
     text-decoration: none;
-    color: #4aacf5;
+    color: #00d950;
     text-transform: uppercase;
     font-size: 15px;
 }
 
-.navbar ul li a[href*="Incision"] {
-    color: red;
-}
 
 
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #f4c02e;
+    background: #00d950;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -71,8 +66,12 @@
 }
 
 .content h1{
-    font-size: 60px;
+    font-size: 90px;
     margin-top: 80px;
+    margin-bottom: 20px;
+    mix-blend-mode: multiply;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #00d950;
 }
 
 .content p{
@@ -88,7 +87,7 @@ button{
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #f4c22b;
+    border: 2px solid #fff;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -97,7 +96,7 @@ button{
 }
 
 span{
-    background: #4cacf2;
+    background: #00d950;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -132,7 +131,6 @@ body {
 }
 
 h1 {
-    background-color: #00d950;
     color: #fff;
     padding: 3px;
     font-family: Helvetica, sans-serif;
@@ -156,25 +154,25 @@ h5 {
     margin: 10px 0;
 }
 
-.team-members {
+
+.footer ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+.footer{
+    background-color: #000;
+    color: #00d950;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
+    
+}
+.footer div{
+    align-items: center;
+    margin: 20px;
+    width: 100%;
+    font-size: x-small;
 }
 
-.member {
-    text-align: center;
-    margin: 5px;
-}
-
-.member img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.member h3 {
-    margin: 5px 0;
+a:link {
+    color: #fff;
+    text-decoration: none;
 }
