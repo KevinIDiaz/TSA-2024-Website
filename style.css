@@ -232,7 +232,11 @@ h1 {
     width: 80%;
   }
 }
-
+@media screen and (max-width: 600px) {
+  .section .thumbnail {
+    width: 80%;
+  }
+}
 .thumbnail2 {
   width: 60%;
   height: auto;
