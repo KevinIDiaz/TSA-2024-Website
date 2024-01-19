@@ -267,3 +267,8 @@ td {
 .dataTable {
   overflow-x: auto;
 }
+
+.section .pdf {
+  width: 80%;
+  min-height: 500px;
+}
