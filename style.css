@@ -142,6 +142,7 @@ h1 {
 .footer ul {
   list-style-type: none;
   margin-top: 10px;
+  color: #fff;
 }
 .footer {
   background-color: #000;
@@ -159,8 +160,7 @@ h1 {
   margin-top: 8px;
   color: #fff;
 }
-a:link {
-  color: #fff;
+.footer a:link {
   text-decoration: none;
 }
 
@@ -231,4 +231,35 @@ a:link {
   .content .thumbnail {
     width: 80%;
   }
+}
+
+.thumbnail2 {
+  width: 60%;
+  height: auto;
+  border-radius: 15px;
+  margin: 40px;
+}
+
+.data {
+  width: 80%;
+  margin: auto;
+}
+.data th td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th {
+  background-color: #00d950;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+td {
+  background-color: #dfdada;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.dataTable {
+  overflow-x: auto;
 }
